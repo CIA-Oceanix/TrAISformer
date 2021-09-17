@@ -158,7 +158,7 @@ if __name__ == "__main__":
             l_min_errors.append(error_ens.min(dim=-1))
             l_mean_errors.append(error_ens.mean(dim=-1))
             l_masks.append(masks[:,cf.init_seqlen:])
-            break
+
     l_min = [x.values for x in l_min_errors]
     m_masks = torch.cat(l_masks,dim=0)
     min_errors = torch.cat(l_min,dim=0)*m_masks
