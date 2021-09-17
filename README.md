@@ -15,10 +15,10 @@ See requirements.yml
 
 ### Datasets:
 
-The data used in this paper is provided by the [Danish Maritime Authority (DMA)](https://www.dma.dk/SikkerhedTilSoes/Sejladsinformation/AIS/Sider/default.aspx). 
+The data used in this paper are provided by the [Danish Maritime Authority (DMA)](https://www.dma.dk/SikkerhedTilSoes/Sejladsinformation/AIS/Sider/default.aspx). 
 Please refer to [the paper](https://arxiv.org/abs/2109.03958) for the details of the pre-processing step. 
 
-A processed data can be found in `./data/ct_dma/`
+A processed dataset can be found in `./data/ct_dma/`
 
 ### Run
 
