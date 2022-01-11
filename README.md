@@ -23,6 +23,7 @@ A processed dataset can be found in `./data/ct_dma/`
 ### Run
 
 Run `trAISformer.py` to train and evaluate the model.
+(Please note that the values given by the code are in km, while the values presented in the paper were converted to nautical mile.)
 
 
 ### License
