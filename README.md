@@ -19,7 +19,7 @@ The data used in this paper are provided by the [Danish Maritime Authority (DMA)
 Please refer to [the paper](https://arxiv.org/abs/2109.03958) for the details of the pre-processing step. 
 
 A processed dataset can be found in `./data/ct_dma/`
-(The format is `[lat, log, sog, cog, unix_timestamp, mmsi]`.)
+(the format is `[lat, log, sog, cog, unix_timestamp, mmsi]`).
 
 ### Run
 
