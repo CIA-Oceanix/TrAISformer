@@ -37,7 +37,7 @@ class AISDataset(Dataset):
                 l_data[idx]["mmsi"]: vessel's MMSI.
                 l_data[idx]["traj"]: a matrix whose columns are 
                     [LAT, LON, SOG, COG, TIMESTAMP]
-                lat, lon, sog, and cod have been standardized, i.e. range = [0,1).
+                lat, lon, sog, and cog have been standardized, i.e. range = [0,1).
             max_seqlen: (optional) max sequence length. Default is
         """    
             
